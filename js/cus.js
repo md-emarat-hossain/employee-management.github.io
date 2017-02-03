@@ -1,0 +1,59 @@
+$(document).ready(function()
+{
+$('#id1').hide();
+$('#update_id').hide();
+$('#name1').hide();
+$('#update_name').hide();
+$('#sp1').hide();
+$('#update_sp').hide();
+$('#phone1').hide();
+$('#update_phone').hide();
+$('#add1').hide();
+$('#update_add').hide();
+$('#mp').hide();
+$('#up').hide();
+$('#pd').click(function()
+{
+	$('#mp').show();
+	$('#up').hide();
+	$('#pr').hide();
+
+	$('#emp_p').show();
+	$('#emp_ap').show();
+	$('#emp_sp').show();
+
+});
+$('#inf').click(function()
+{
+	$('#mp').hide();
+	$('#up').hide();
+	$('#pr').show();
+});
+$('#udp').click(function()
+{
+	$('#mp').hide();
+	$('#up').show();
+	$('#pr').hide();
+});
+
+$('#emp').click(function()
+{
+	$('#mp').hide();
+	$('#emp_p').show();
+	$('#pr').hide();
+});
+$('#ap').click(function()
+{
+	$('#emp_ap').show();
+	$('#emp_p').hide();
+	$('#pr').hide();
+});
+
+$('#sp').click(function()
+{
+	$('#mp').hide();
+	$('#emp_p').hide();
+	$('#pr').hide();
+});
+
+});
